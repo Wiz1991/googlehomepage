@@ -1,10 +1,4 @@
-body {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-}
+body {}
 
 html {
     font-size: 16px;
@@ -63,7 +57,8 @@ html {
     justify-content: center;
     width: 35rem;
     height: 3rem;
-    margin: 1em;
+    margin: 0 auto;
+    margin-top: 1em;
 }
 
 #google-search-button {
@@ -106,4 +101,41 @@ html {
 
 #lucky-button:hover {
     border: 1px solid rgb(148, 148, 148);
+}
+
+.navbar {
+    list-style-type: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+    padding: 20px;
+}
+
+.navitem {
+    float: right;
+}
+
+.navitem a {
+    display: block;
+    text-align: center;
+    padding: 1px 10px;
+    text-decoration: none;
+    color: rgb(48, 46, 46);
+}
+
+.navitem button {
+    order: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    cursor: default;
+    text-decoration: none;
+    color: white;
+    background: -webkit-linear-gradient(top, #4387fd, #4683ea);
+    display: inline-block;
+    line-height: 28px;
+    padding: 4px 14px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    font-size: 16px;
+    border: none;
 }
